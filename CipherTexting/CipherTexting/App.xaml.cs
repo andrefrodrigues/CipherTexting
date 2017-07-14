@@ -11,9 +11,10 @@ namespace CipherTexting
 	{
 		public App ()
 		{
-			InitializeComponent();
+            InitializeComponent();
 
-			MainPage = new CipherTexting.MainPage();
+
+            MainPage = new CipherTexting.SplashPage();
 		}
 
 		protected override void OnStart ()
